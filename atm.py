@@ -1,6 +1,6 @@
 # allowed papers: 100, 50, 10, 5, and cents
 
-amount = 500
+amount = 200
 
 #request = 567
 
@@ -35,11 +35,11 @@ def withdraw(amount,request):
 		#request = 0		
 	return Balance_restante	
 			
-amount =  withdraw(amount,300)
+amount =  withdraw(amount,3)
 print amount
 
-amount = withdraw(amount,30)
-print amount
+#amount = withdraw(amount,30)
+#print amount
 
-amount = withdraw(amount,5)
-print amount
+#amount = withdraw(amount,5)
+#print amount
